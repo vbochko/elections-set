@@ -1,0 +1,9 @@
+[project]
+name = "elections-set"
+version = "0.1.0"
+description = "Raw HTML collector for the 2015 Ukrainian local elections (CVK)"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "requests>=2.31",
+]
